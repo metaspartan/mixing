@@ -1,0 +1,45 @@
+<div class= "header">
+    <div class = "header-logo">
+        <a href="/"><img src = "/images/mainlogo1.svg" alt = "" height ="50px"></a>
+    </div>
+
+    <div class = "header-left-menu fixed">
+        <span><a href="/signature">Confirm signature</a></span>
+    </div>
+
+    <div class = "header-right-menu">
+        <span><a href="/faq">FAQ</a></span>
+        <span><a href="/fees">Fees</a></span>
+        <span><a href="/status">Order status</a></span>
+        <span><a href="/auth/signout" class="signingout" id = "desktop-signout">Sign out</a></span>
+    </div>
+
+    <button class = "header-button">
+        <img class = "header-button-background" src = "/images/menu.svg">
+    </button>
+</div>
+
+<div class = "header-mobile-right-menu">                
+    <div class = "mobile-menu-element"><a href="/faq">FAQ</a></div>
+    <div class = "mobile-menu-element"><a href="/fees">Fees</a></div>
+    <div class = "mobile-menu-element"><a href="/status">Order status</a></div>
+    <div class = "mobile-menu-element"><a href="/auth/signout" class="signingout" id = "mobile-signout">Sign out</a></div>
+</div>
+
+<div class = "signout-popup">
+    <div class = "signout-popup-content">
+        <span class = "close-signout-popup"></span>
+        <p class = "signout-popup-please">Please confirm action</p>
+        <p class = "signout-popup-main-text">
+            Do you really want to sign out from your account? This will wipe out 
+            all the data about your current session from our servers. 
+        </p>
+        <div class = "signout-button-content">
+            <div class = "signout-button-parent">
+                <button class = "signout-button">Sign out</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src = "/scripts/signout.js"></script>
